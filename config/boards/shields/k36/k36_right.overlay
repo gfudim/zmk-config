@@ -1,0 +1,5 @@
+#include "k36.dtsi"
+
+&default_transform {
+	col-offset = <18>;
+};

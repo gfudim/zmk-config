@@ -1,0 +1,31 @@
+config ZMK_BLE
+	default y
+
+config ZMK_USB
+	default y
+
+
+if SHIELD_K36_LEFT
+
+config ZMK_KEYBOARD_NAME
+	default "K36"
+
+config ZMK_SPLIT_BLE_ROLE_CENTRAL
+  default y
+
+endif
+
+
+if SHIELD_K36_RIGHT
+
+config ZMK_KEYBOARD_NAME
+	default "K36 Right"
+
+endif
+
+if SHIELD_K36_LEFT || SHIELD_K36_RIGHT
+
+config ZMK_SPLIT
+	default y
+ 
+endif
