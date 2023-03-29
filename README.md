@@ -4,7 +4,7 @@
 
 A shallow "miryoku" layout implementation for my 36-Keys, diode-free/gpio-direct, custom keyboard.
 
-<img src="https://raw.githubusercontent.com/gfudim/zmk-config/master/img/k36.jpg"
+<img src="https://raw.githubusercontent.com/gfudim/zmk-config/main/img/k36.jpg"
      alt="K36 Keyboard"
      style="float: left; margin-bottom: 10px;" />
 
