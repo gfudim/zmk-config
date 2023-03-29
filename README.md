@@ -4,6 +4,23 @@
 
 A shallow "miryoku" layout implementation for my 36-Keys, diode-free/gpio-direct, custom keyboard.
 
+<img src="https://raw.githubusercontent.com/gfudim/zmk-config/master/img/k36.jpg"
+     alt="K36 Keyboard"
+     style="float: left; margin-bottom: 10px;" />
+
+### Parts
+
+* PCB - 2 PCBs of K-36 split keyboard
+* Controller - 2 Nice Nano micro controller
+* Switches - 36 Kailh Choc switches of your choice
+* Sockets - 36 Kailh hotswap sockets for choc switches
+* Keycaps - 34 Choc keycaps, 2 Choc homing keycaps
+* On\Off Switch - 2 PCM12SMTR micro toggle switch
+* Reset Button - 2 B3U-1000P MD 2-foot tact switch 3*2.5*1.6 Micro button
+* Battery - 2 301230 3.7v 110mah batteries(they fit under the nice nano mount)
+* Connector - 2 PH 2.0 JST Connector Right Angle, Seat+Plug+Terminals
+* Pads - Round Silicone Rubber Pads, 8x8x2.5mm (min height is 2.5mm because the hotswap sockets are 2mm in height)
+
 ### Details
 
 * 5 columns, 3 rows, 3 thumb keys, 2 hands.
