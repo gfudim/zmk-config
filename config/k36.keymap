@@ -84,10 +84,10 @@
 
         settings_layer {
             bindings = <
-  &trans  &trans  &trans  &trans  &trans      &none         &none         &trans        &trans        &out OUT_BLE
-  &trans  &trans  &trans  &trans  &trans      &trans        &trans        &trans        &trans        &out OUT_USB
-  &trans  &trans  &trans  &trans  &trans      &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_CLR
-                  &trans  &trans  &trans      &trans        &trans        &trans
+  &none  &none  &none  &none  &none      &none         &none         &none        &none        &out OUT_BLE
+  &none  &none  &none  &none  &none      &none        &none        &none        &none        &out OUT_USB
+  &none  &none  &none  &none  &none      &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_CLR
+                  &none  &none  &none      &none        &none        &none
             >;
         };
     };
